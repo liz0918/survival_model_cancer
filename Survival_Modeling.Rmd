@@ -1,5 +1,5 @@
 ---
-title: "Independent Project: Survival Model with ML for Cancer Outcomes "
+title: "Independent Project: Survival Model with ML for Gastric Cancer Outcomes "
 author: "Jeong Yun (Lizy) Choi"
 mainfont: Arial
 fontsize: 11pt
@@ -14,3 +14,47 @@ header-includes:
 - \usepackage[medium]{titlesec} 
 urlcolor: blue
 ---
+
+```{r setup, include=FALSE, warning = FALSE, message = FALSE, float = TRUE}
+
+library(tidyverse)
+library(gtsummary)
+library(tidyr)
+library(tictoc)
+library(corrplot)
+library(flextable)
+library(gt)
+library(PerformanceAnalytics)
+library(rstatix)
+library(gtools)
+library(ggplot2)
+library(caret)
+library(ggpubr)
+library(dplyr)
+library(leaps)
+library(glmnet)
+library(caret)
+library(kableExtra)
+library(cowplot)
+library(patchwork)
+
+knitr::opts_chunk$set(
+	echo = TRUE,
+	warning = FALSE,
+	fig.width = 7, 
+  fig.height = 5,
+  out.width = "90%", 
+	fig.align = "center", 
+	fig.pos = "H"
+)
+
+scale_colour_discrete = scale_colour_viridis_d
+scale_fill_discrete = scale_fill_viridis_d
+
+theme_set(theme_minimal())
+```
+
+## Data Import
+```{r}
+```
+
