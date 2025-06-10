@@ -1,0 +1,16 @@
+---
+title: "Independent Project: Survival Model with ML for Cancer Outcomes "
+author: "Jeong Yun (Lizy) Choi"
+mainfont: Arial
+fontsize: 11pt
+output: 
+  pdf_document:
+  latex_engine: xelatex
+  extra_dependencies: ["float"]
+header-includes: 
+- \usepackage{setspace}\doublespacing
+- \usepackage{titling}
+- \setlength{\droptitle}{-4cm}
+- \usepackage[medium]{titlesec} 
+urlcolor: blue
+---
